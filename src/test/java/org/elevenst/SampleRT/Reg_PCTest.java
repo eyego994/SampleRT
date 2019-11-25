@@ -38,7 +38,6 @@ public class Reg_PCTest {
 		app.ChromeSet();
 		Reg_PC.PCGnb();	
 
-
 	}
 	     
 }
