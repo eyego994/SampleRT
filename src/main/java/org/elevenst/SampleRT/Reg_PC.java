@@ -112,15 +112,15 @@ public class Reg_PC {
 		try {
 			driver.get(base_url);	
 			
-//			System.out.println("[TR] =============== 백화점 바로가기 ================");
-//			element = driver.findElement(By.xpath("//ul[@id='gnbThemeMenuArea']/li/a[contains(@class,'department')]"));
-//			element.click();
-//			Thread.sleep(1000);
-//			
-//			element = driver.findElement(By.xpath("//h1[text()='백화점 바로가기']"));
-////			String text = element.getText();
-////				String text = "아디다스";
-//			Assert.assertTrue(element.isDisplayed());
+			System.out.println("[TR] =============== 백화점 바로가기 ================");
+			element = driver.findElement(By.xpath("//ul[@id='gnbThemeMenuArea']/li/a[contains(@class,'department')]"));
+			element.click();
+			Thread.sleep(1000);
+			
+			element = driver.findElement(By.xpath("//h1[text()='백화점 바로가기']"));
+//			String text = element.getText();
+//				String text = "아디다스";
+			Assert.assertTrue(element.isDisplayed());
 			
 			System.out.println("[TR] =============== 마트 바로가기 ================");
 			element = driver.findElement(By.xpath("//ul[@id='gnbThemeMenuArea']/li/a[contains(@class,'mart')]"));
